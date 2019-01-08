@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定向推送</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/headerNoLogin.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/active.css">
+    <link rel="stylesheet" href="css/myService_push.css">
+    <link rel="stylesheet" href="node_modules/layui/css/layui.css">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/layui/layui.js"></script>
+    <script src="js/active.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="headerb">
+        <div class="logo">
+            <img src="image/logo.jpg"/>
+        </div>
+        <div class="logo_beside" >
+            <div class="login_welcome">
+                <span>XXXX</span>
+                <span>欢迎登陆！</span>
+            </div>
+            <div class="search">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="输入关键字...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search" style="color: #37A8F8"></span>
+                                </button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_chose" >
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="homePage.html">首页</a></li>
+            <li role="presentation" class="active1"><a href="myService_serviceList.html">我的服务</a></li>
+            <li role="presentation"><a href="myZoom.html">我的空间</a></li>
+            <li role="presentation"><a href="myVoice.html" >我的声音</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="center">
+    <div id="center_header">
+        <p class="prompt">基本公共服务配置供给关系系统/我的服务</p>
+
+        <p class="title ">服务列表</p>
+        <p class="title "  style="color:#37A8F8">定向推送</p>
+        <p class="title ">我的服务</p>
+    </div>
+    <div id="center_item">
+        <div class="service_list">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="输入关键字...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search" style="color: #37A8F8"></span>
+                            </button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+            </div>
+        </div>
+    </div>
+    <div id="center_item_detail">
+        <ul>
+        <li>
+            <ul>
+                <li class="img">
+                    <img src="image/pic1.png" alt="">
+                </li>
+                <li class="disc">
+                    <p class="disc_name">XXXX服务</p>
+                    <p class="disc_content">那是一种内涵的东西，他们到达不了，也接触不了,这是真的</p>
+                </li>
+                <li class="item">
+                    <p>基本医疗服务</p>
+                </li>
+                <li class="author">
+                    <p>作者</p>
+                    <p>易烊千玺</p>
+                </li>
+                <li class="time">
+                    <p>推送时间</p>
+                    <p>
+                        <span style="margin-right: 20px">2018-11-11</span>
+                        <span>12:22:01</span>
+                    </p>
+                </li>
+                <li class="choice">
+                    <a href=""style="margin-right: 10px">查看</a>
+                    <span style="color:#999;margin-right: 10px">|</span>
+                    <a href="">评论</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li class="img">
+                    <img src="image/pic1.png" alt="">
+                </li>
+                <li class="disc">
+                    <p class="disc_name">XXXX服务</p>
+                    <p class="disc_content">那是一种内涵的东西，他们到达不了，也接触不了,这是真的</p>
+                </li>
+                <li class="item">
+                    <p>基本医疗服务</p>
+                </li>
+                <li class="author">
+                    <p>作者</p>
+                    <p>易烊千玺</p>
+                </li>
+                <li class="time">
+                    <p>推送时间</p>
+                    <p>
+                        <span style="margin-right: 20px">2018-11-11</span>
+                        <span>12:22:01</span>
+                    </p>
+                </li>
+                <li class="choice">
+                    <a href=""style="margin-right: 10px">查看</a>
+                    <span style="color:#999;margin-right: 10px">|</span>
+                    <a href="">评论</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li class="img">
+                    <img src="image/pic1.png" alt="">
+                </li>
+                <li class="disc">
+                    <p class="disc_name">XXXX服务</p>
+                    <p class="disc_content">那是一种内涵的东西，他们到达不了，也接触不了,这是真的</p>
+                </li>
+                <li class="item">
+                    <p>基本医疗服务</p>
+                </li>
+                <li class="author">
+                    <p>作者</p>
+                    <p>易烊千玺</p>
+                </li>
+                <li class="time">
+                    <p>推送时间</p>
+                    <p>
+                        <span style="margin-right: 20px">2018-11-11</span>
+                        <span>12:22:01</span>
+                    </p>
+                </li>
+                <li class="choice">
+                    <a href=""style="margin-right: 10px">查看</a>
+                    <span style="color:#999;margin-right: 10px">|</span>
+                    <a href="">评论</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li class="img">
+                    <img src="image/pic1.png" alt="">
+                </li>
+                <li class="disc">
+                    <p class="disc_name">XXXX服务</p>
+                    <p class="disc_content">那是一种内涵的东西，他们到达不了，也接触不了,这是真的</p>
+                </li>
+                <li class="item">
+                    <p>基本医疗服务</p>
+                </li>
+                <li class="author">
+                    <p>作者</p>
+                    <p>易烊千玺</p>
+                </li>
+                <li class="time">
+                    <p>推送时间</p>
+                    <p>
+                        <span style="margin-right: 20px">2018-11-11</span>
+                        <span>12:22:01</span>
+                    </p>
+                </li>
+                <li class="choice">
+                    <a href=""style="margin-right: 10px">查看</a>
+                    <span style="color:#999;margin-right: 10px">|</span>
+                    <a href="">评论</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li class="img">
+                    <img src="image/pic1.png" alt="">
+                </li>
+                <li class="disc">
+                    <p class="disc_name">XXXX服务</p>
+                    <p class="disc_content">那是一种内涵的东西，他们到达不了，也接触不了,这是真的</p>
+                </li>
+                <li class="item">
+                    <p>基本医疗服务</p>
+                </li>
+                <li class="author">
+                    <p>作者</p>
+                    <p>易烊千玺</p>
+                </li>
+                <li class="time">
+                    <p>推送时间</p>
+                    <p>
+                        <span style="margin-right: 20px">2018-11-11</span>
+                        <span>12:22:01</span>
+                    </p>
+                </li>
+                <li class="choice">
+                    <a href=""style="margin-right: 10px">查看</a>
+                    <span style="color:#999;margin-right: 10px">|</span>
+                    <a href="">评论</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    <div id="demo7" style="margin: 0 auto;width: 800px"></div>
+    <script>
+        layui.use(['laypage', 'layer'], function(){
+            var laypage = layui.laypage
+                ,layer = layui.layer;
+            laypage.render({
+                elem: 'demo7'
+                ,count: 100
+                ,theme: '#1E9FFF'
+                ,layout: ['count', 'prev', 'page', 'next', 'limit', 'refresh', 'skip']
+                ,jump: function(obj){
+                    console.log(obj)
+                }
+            });
+        });
+    </script>
+
+</div>
+
+<div id="footer">
+    <p>基本公共服务配置供给管理系统</p>
+</div>
+</body>
+</html>
